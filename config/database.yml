@@ -5,3 +5,11 @@ development:
   pool: 5
   username: ubuntu
   password: gmrind
+
+production:
+  adapter: postgresql
+  encoding: SQL_ASCII
+  database: cc_database
+  pool: 5
+  username: ubuntu
+  password: gmrind
